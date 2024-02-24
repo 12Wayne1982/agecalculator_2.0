@@ -1,0 +1,24 @@
+<h4>Display Age</h4>
+<h1 id="">Your Age in...</h1>
+<div class="numberContainer">
+  <div class="numberContainerItem"><b>... years:</b> {{ years }}</div>
+  <div class="numberContainerItem"><b>... months:</b> {{ months }}</div>
+  <div class="numberContainerItem"><b>... weeks:</b> {{ weeks }}</div>
+  <div class="numberContainerItem">
+    <!-- <b>... days:</b> {{ transferedData.days }} -->
+    <b>... days:</b> {{ days }}
+  </div>
+  <div class="numberContainerItem"><b>... hours:</b> {{ hours }}</div>
+  <b>... minutes:</b>
+  <div class="numberContainerItem" id="minutesID">
+    {{ minutes }}
+  </div>
+  <b>... seconds:</b>
+  <div class="numberContainerItem" id="secondsID">{{ seconds }}</div>
+</div>
+
+<div class="btn-group" role="group" aria-label="Button group name">
+  <button class="btn btn-success" routerLink="/display-zodiac-signs">
+    Show My Zodiac Sign
+  </button>
+</div>
